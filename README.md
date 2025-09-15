@@ -106,15 +106,6 @@ https://openweathermap.org/img/wn/{icon}@2x.png
 
 ---
 
-## Notes
-
-* All **success and error actions** display toast notifications.
-* **LocalStorage** is used to persist forecasts; the app automatically restores them on page reload.
-* Errors from API calls are caught and shown as toasts.
-* JavaScript/TypeScript is imported in the `<head>` using a **Vite module script**, fulfilling the project requirement.
-
----
-
 ## Dependencies
 
 * Vue 3
@@ -123,3 +114,4 @@ https://openweathermap.org/img/wn/{icon}@2x.png
 * Bulma
 * Axios
 * Material Design Icons
+* ESLint & Prettier for code quality and formatting
